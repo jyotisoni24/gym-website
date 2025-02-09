@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(17, 3, 3);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.9);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 79px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.left img{
+    width: 90px;
+    align-self: center;
+}
+.left div{
+    font-weight: 800;
+    font-size: 2.2rem;
+    padding-left: 20px;
+    color: goldenrod;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 15px;
+    gap: 30px;
+}
+.right button{
+    padding: 16px 16px;
+    background-color: rgba(255, 0, 0, 0.753);
+    border-radius: 2rem;
+    color: wheat;
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.9);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.right button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+}
+.images{
+    padding: 12px 10px;
+    display: flex;
+    border-radius: 200px;
+    margin-bottom: 0;
+}
+#image2{
+    width: 800px;
+}
+.container{
+    margin-top: 0;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: gray;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.9);
+}
+.form-group{
+    padding: 17px 10px;
+}
+.form-group input{
+    padding: 10px 15px;
+    border-radius: 30px;
+    width: 300px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.2);
+}
+.container button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-family: inherit;
+    background-color: white;
+    border-radius: 0.6rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+footer{
+    margin-top: 20px;
+    background-color: rgb(71, 67, 67);
+    padding: 18px 20px;
+   text-align: center;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home{
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer p{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+.social-media{
+        font-size: 1.5rem;
+        padding: 20px 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+     
+}
